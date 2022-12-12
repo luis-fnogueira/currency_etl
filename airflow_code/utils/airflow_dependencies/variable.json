@@ -1,0 +1,10 @@
+-- This example gets data of USD-BRL, but it could be any currency
+
+{ 
+ "dagrun_timeout": "120",
+ "time_interval": { "days": 0, "hours": 0, "microseconds": 0, "milliseconds": 0, "minutes": 1, "seconds": 0, "weeks": 0 },
+ "timeout": "120",
+ "params": { "end_date": "2022-12-12", "start_date": "2022-12-12" },
+ "schedule_interval": "* * * * *", "start_date": "2022-12-12 12:00:00",
+"lambda_payload": {"currency": "USD-BRL", "table": "currency","schema": "public"} 
+}
